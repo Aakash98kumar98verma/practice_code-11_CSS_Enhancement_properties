@@ -1,0 +1,89 @@
+div{
+     border: 5px solid rgb(102, 6, 139);
+     word-spacing: 10px;
+     text-transform: capitalize;
+     padding: 10px;
+}
+
+h1{
+     color: rgb(188, 50, 243);
+     text-decoration: underline;
+     text-shadow: 5px 5px 10px rgb(102, 6, 139);
+}
+#para1{
+     direction: rtl;
+     color: rgb(31, 248, 78);
+     text-decoration: line-through;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: large;
+     font-weight: bold;
+     font-style: oblique;
+}
+#para2{
+     text-align: center;
+     color: blue;
+     text-decoration: overline;
+     /* shorthand of font */
+     font: italic bolder x-large 'Segoe UI';
+}
+#para3{
+     text-indent: 50px;
+     color: rgb(134, 6, 6);
+     text-decoration: underline;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 25px;
+     font-style:oblique;
+     font-weight: bold;
+}
+
+h2{
+     display: contents;
+     color: rgb(201, 78, 7);
+     text-shadow: 5px 5px 10px rgb(102, 6, 139);
+}
+#p1{
+     display: inline;
+     direction: rtl;
+     color: rgb(31, 248, 78);
+     text-decoration: line-through;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: large;
+     font-weight: bold;
+     font-style: oblique;
+}
+#p2{
+     display: flex;
+     text-align: center;
+     color: blue;
+     text-decoration: overline;
+     /* shorthand of font */
+     font: italic bolder x-large 'Segoe UI';    
+}
+#p3{
+     display: inherit;
+     direction: rtl;
+     color: rgb(2, 119, 100);
+     text-decoration: underline;
+     /* shorthand of font */
+     font: italic normal large 'Gill Sans MT'; 
+}
+#p4{
+     display: flex;
+     text-indent: 50px;
+     color: rgb(153, 49, 49);
+     text-decoration: underline;
+     font-family:Tahoma, sans-serif;
+     font-size: 20px;
+     font-style:oblique;
+     font-weight: bold;
+}
+img{
+     float: right;
+     margin-right: 15px;
+     padding-left: 15px
+}
+#problem4{
+     text-align: justify;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
